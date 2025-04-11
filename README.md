@@ -72,21 +72,6 @@ Certifique-se de ter os seguintes softwares instalados:
 
 ---
 
-## Testes
-
-### Consumidores
-
-Os testes para os consumidores estão localizados em `FCCPD_ULTIMO/ConsApplication/src/test`. Para rodar os testes, execute:
-```sh
-./mvnw test
-```
-
-### Produtores
-
-Os produtores não possuem testes automatizados, mas você pode testar manualmente executando os scripts Python e verificando as mensagens no RabbitMQ.
-
----
-
 ## Observações
 
 - Certifique-se de que as variáveis de ambiente estão configuradas corretamente para o RabbitMQ, caso utilize um servidor diferente.
@@ -94,6 +79,3 @@ Os produtores não possuem testes automatizados, mas você pode testar manualmen
 
 ---
 
-## Licença
-
-Este projeto é licenciado sob a [Apache License 2.0](http://www.apache.org/licenses/LICENSE-2.0).
